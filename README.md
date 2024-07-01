@@ -15,16 +15,16 @@ Depois, execute:
 bundle install
 ```
 
-## Instalação Manual(Recomendada)
+## Como testar
 
-Se preferir, pode instalar manualmente a gem a partir do repositório GitHub usando bundler:
-```ruby
-bundle add quake_log_detail --git 'https://github.com/lairtonmendes/quake_log_detail.git'
+Como a gem não está publicada, recomendo clonar o projeto e rodar com bin/console
+```bash
+bin/console
 ```
 
 ## Uso
 
-Depois de instalar a gem, você pode usá-la da mesma forma como faria se estivesse instalada localmente:
+Depois de instalar a gem ou usar o `bin/console`, você pode usar:
 
 ```ruby
 require 'quake_log_detail'
