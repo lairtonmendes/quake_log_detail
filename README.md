@@ -17,8 +17,9 @@ bundle install
 
 ## Como testar
 
-Como a gem não está publicada, recomendo clonar o projeto e rodar com bin/console
+Como a gem não está publicada, recomendo clonar o projeto e rodar com bin/setup bin/console
 ```bash
+bin/setup
 bin/console
 ```
 
